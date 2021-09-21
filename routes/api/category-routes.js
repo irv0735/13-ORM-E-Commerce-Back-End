@@ -33,7 +33,7 @@ router.get('/:id', async (req, res) => {
 
 // create a new category
 router.post('/', async (req, res) => {
-    /* req.body should look like this...
+  /* req.body should look like this...
     {
       category_name: "Books"
     }
